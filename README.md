@@ -1,6 +1,12 @@
-# OurWater
+### OurWater
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+Our Water is a visualization of the water data collected in the United States by USGS.
+
+## Currently Used Art
+
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<a href='https://www.freepik.com/vectors/background'>Background vector created by upklyak</a>
 
 ## Development server
 

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+  background: white;
+}
+
+.main {
+  background-size: 170%;
+  width: 100%
+}
+.nav {
+  float: left;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: rgb(77, 161, 250);
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(77, 161, 250);
+  font-family: 'Questrial', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(192, 217, 243);
+}
+
+.main-title {
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(77, 161, 250);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sub-title {
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(77, 161, 250);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
+  color: rgb(77, 161, 250);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+}
+
+.reg-text {
+  float: left;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: rgb(77, 161, 250);
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
+  display: block;
+}
+
+.reg-title {
+  float: left;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  color: rgb(77, 161, 250);
+  font-family: 'Questrial', sans-serif;
+  font-size: 25px;
+  display: block;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
