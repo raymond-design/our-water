@@ -1,0 +1,29 @@
+.nav {
+  float: left;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: rgb(77, 161, 250);
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(77, 161, 250);
+  font-family: 'Questrial', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(192, 217, 243);
+}

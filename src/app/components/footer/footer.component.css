@@ -1,0 +1,11 @@
+footer {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  color: rgb(77, 161, 250);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+}

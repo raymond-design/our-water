@@ -10,7 +10,11 @@ import { FactsComponent } from './pages/facts/facts.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'about', component: AboutComponent}
+  {path: 'about', component: AboutComponent},
+  {path: 'map', component: MapComponent},
+  {path: 'stats', component: StatsComponent},
+  {path: 'news', component: NewsComponent},
+  {path: 'facts', component: FactsComponent}
 ];
 
 @NgModule({
