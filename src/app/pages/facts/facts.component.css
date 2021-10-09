@@ -1,0 +1,45 @@
+.main-title {
+  text-align: center;
+  letter-spacing: 6px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(77, 161, 250);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sub-title {
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(77, 161, 250);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.reg-text {
+  float: left;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: rgb(77, 161, 250);
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
+  display: block;
+}
+
+.reg-title {
+  float: left;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  color: rgb(77, 161, 250);
+  font-family: 'Questrial', sans-serif;
+  font-size: 25px;
+  display: block;
+}
