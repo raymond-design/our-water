@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { InfoBoxComponent } from '../../components/info-box/info-box.component';
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',

@@ -9,9 +9,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { StatsComponent } from './pages/stats/stats.component';
 import { NewsComponent } from './pages/news/news.component';
 import { FactsComponent } from './pages/facts/facts.component';
-import { InfoBoxComponent } from './components/info-box/info-box.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+import { MapModule } from './pages/map/map.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,12 +20,12 @@ import { FooterComponent } from './components/footer/footer.component';
     StatsComponent,
     NewsComponent,
     FactsComponent,
-    InfoBoxComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
