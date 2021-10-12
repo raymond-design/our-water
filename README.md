@@ -1,7 +1,7 @@
-### OurWater
+### Our Water
 
 Our Water is a visualization of the water data collected in the United States by USGS.
-
+This app will now use both Mapbox and Google Maps.
 ## Currently Used Art
 
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

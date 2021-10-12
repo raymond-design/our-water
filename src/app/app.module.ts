@@ -12,6 +12,7 @@ import { FactsComponent } from './pages/facts/facts.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 import { MapModule } from './pages/map/map.module';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,12 +21,13 @@ import { MapModule } from './pages/map/map.module';
     StatsComponent,
     NewsComponent,
     FactsComponent,
-    FooterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MapModule
+    MapModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
