@@ -10,7 +10,7 @@ This app will now use both Mapbox and Google Maps.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. Use `npm run dev` to run with the proxy config file. The server currently runs on `http://localhost:4200/` for dev mode. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. Use `npm run dev` to run with the proxy config file. The server currently runs on `http://localhost:3000/` for dev mode. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
