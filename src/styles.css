@@ -1,8 +1,10 @@
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
 
 :root {
+  --blue-text: rgb(77, 161, 250);
   --background-light: #80deec;
   --background-very-light: #e1fbff;
+  --font: 'Questrial', sans-serif;
 }
 
 body {

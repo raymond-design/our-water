@@ -10,13 +10,13 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  color: rgb(77, 161, 250);
+  color: var(--blue-text);
 }
 
 li a, .dropbtn {
   display: inline-block;
-  color: rgb(77, 161, 250);
-  font-family: 'Questrial', sans-serif;
+  color: var(--blue-text);
+  font-family: var(--font);
   font-size: 17px;
   font-weight: bold;
   text-align: center;
