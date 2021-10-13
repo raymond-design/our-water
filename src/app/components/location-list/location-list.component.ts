@@ -10,18 +10,23 @@ export class LocationListComponent implements OnInit {
   
   constructor(private UsgsService: UsgsApiService) { }
 
-  locationData: any;
+  locationData: object[]=[];
   
   ngOnInit(): void {
     //user input for this value will be implemented:
     //testHucId = "02070010";
     this.UsgsService.getHucData("02070010").subscribe(
       (listData) => { this.locationData=listData; },
-      (error) => { console.log(error); });
+      (error) => { 
+        this.locationData=[
+          {siteName: "ERROR INVALID LOCATION ID",
+          waterTemp: "ERROR INVALID LOCATION ID",
+          waterTempTime: "ERROR INVALID LOCATION ID",
+          gageHeight: "ERROR INVALID LOCATION ID",
+          gageHeightTime: "ERROR INVALID LOCATION ID",
+        }
+        ]; 
+        console.log(error); });
   }
   
-  //getListData(huc: string){
-  //  this.locationData=this.UsgsService.getHucData(huc);
-  //}
-
 }
