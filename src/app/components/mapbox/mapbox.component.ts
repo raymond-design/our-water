@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as mapboxgl from 'mapbox-gl';
 import {environment} from '../../../environments/environment';
 @Component({
@@ -6,7 +6,7 @@ import {environment} from '../../../environments/environment';
   templateUrl: './mapbox.component.html',
   styleUrls: ['./mapbox.component.css']
 })
-export class MapboxComponent implements OnInit, AfterViewInit {
+export class MapboxComponent implements OnInit {
   map!: mapboxgl.Map;
   style = 'mapbox://styles/mapbox/streets-v11';
   lat = 37.75;
@@ -24,8 +24,6 @@ export class MapboxComponent implements OnInit, AfterViewInit {
         accessToken: environment.mapbox.accessToken
       });
     this.map.addControl(new mapboxgl.NavigationControl());
-
-    ngAfterViewInit():
 
   }
 

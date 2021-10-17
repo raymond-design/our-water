@@ -13,6 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 
 import { MapModule } from './pages/map/map.module';
 import { HttpClientModule } from '@angular/common/http';
+import { ComparisonMapComponent } from './components/comparison-map/comparison-map.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     StatsComponent,
     NewsComponent,
     FactsComponent,
-    FooterComponent
+    FooterComponent,
+    ComparisonMapComponent
   ],
   imports: [
     BrowserModule,
