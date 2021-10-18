@@ -14,6 +14,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MapModule } from './pages/map/map.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ComparisonMapComponent } from './components/comparison-map/comparison-map.component';
+import { NewsListComponent } from './components/news-list/news-list.component';
+import { NewsBoxComponent } from './components/news-box/news-box.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,9 @@ import { ComparisonMapComponent } from './components/comparison-map/comparison-m
     NewsComponent,
     FactsComponent,
     FooterComponent,
-    ComparisonMapComponent
+    ComparisonMapComponent,
+    NewsListComponent,
+    NewsBoxComponent
   ],
   imports: [
     BrowserModule,

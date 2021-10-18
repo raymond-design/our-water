@@ -15,6 +15,6 @@ export class UsgsApiService {
    * remember to set right port for api
    */
   getHucData(huc: string): Observable<object[]> {
-      return this.http.get<object[]>(`api/usgs/huc?huc=${huc}`);
+      return this.http.get<object[]>(`http://localhost:3000/api/usgs/huc?huc=${huc}`);
   }
 }

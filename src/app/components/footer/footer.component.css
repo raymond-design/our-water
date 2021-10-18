@@ -1,15 +1,16 @@
 footer {
   text-align: center;
-  letter-spacing: 2px;
-  font-family: 'Questrial', sans-serif;
-  font-size: 15px;
-  font-weight: bolder;
-  color: var(--blue-text);
-  padding-top: 50px;
-  padding-bottom: 50px;
+  letter-spacing: 3px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   display: block;
 }
 
 .name {
-  padding-bottom: 10px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
 }
+
+ 

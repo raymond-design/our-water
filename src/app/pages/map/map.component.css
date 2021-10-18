@@ -1,4 +1,6 @@
-
+body {
+  background-color: aliceblue;
+}
 .main-title {
   text-align: center;
   letter-spacing: 6px;
