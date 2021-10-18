@@ -19,14 +19,16 @@ export class LocationListComponent implements OnInit {
       (listData) => { this.locationData=listData; },
       (error) => { 
         this.locationData=[
-          {siteName: "ERROR INVALID LOCATION ID",
+        {
+          siteName: "ERROR INVALID LOCATION ID",
           waterTemp: "ERROR INVALID LOCATION ID",
           waterTempTime: "ERROR INVALID LOCATION ID",
           gageHeight: "ERROR INVALID LOCATION ID",
           gageHeightTime: "ERROR INVALID LOCATION ID",
         }
         ]; 
-        console.log(error); });
+        console.log(error); 
+    });
   }
   
 }

@@ -16,6 +16,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ComparisonMapComponent } from './components/comparison-map/comparison-map.component';
 import { NewsListComponent } from './components/news-list/news-list.component';
 import { NewsBoxComponent } from './components/news-box/news-box.component';
+
+import {ScrollingModule} from '@angular/cdk/scrolling';
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +36,9 @@ import { NewsBoxComponent } from './components/news-box/news-box.component';
     BrowserModule,
     AppRoutingModule,
     MapModule,
-    HttpClientModule
+    HttpClientModule,
+    ScrollingModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

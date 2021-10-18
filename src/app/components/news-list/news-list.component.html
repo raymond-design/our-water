@@ -1,1 +1,8 @@
-<p>news-list works!</p>
+<h1 class="sub-title">Recent Articles</h1>
+<div class="container">
+  <cdk-virtual-scroll-viewport itemSize="200" class="viewport">
+    <mat-card *cdkVirtualFor="let article of articles">
+      <mat-card-title class='reg-text'>{{article.title}}</mat-card-title>
+    </mat-card>
+  </cdk-virtual-scroll-viewport>
+</div>
