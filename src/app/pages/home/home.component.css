@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(+100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .main-title {
   text-align: center;
   letter-spacing: 6px;
@@ -11,10 +29,9 @@
   padding-bottom: 50px;
   color: var(--blue-text);
   font-family: var(--font);
+  animation: 0.7s ease-out 0s 1 slideInFromLeft;
 }
-
  
-
 .sub-title {
   text-align: center;
   letter-spacing: 3px;
@@ -24,29 +41,7 @@
   padding-bottom: 50px;
   color: var(--blue-text);
   font-family: var(--font);
-}
-
-.reg-text {
-  float: left;
-  letter-spacing: 2px;
-  padding-top: 30px;
-  padding-left: 30px;
-  color: var(--blue-text);
-  font-family: var(--font);
-  font-size: 15px;
-  display: block;
-}
-
-.reg-title {
-  float: left;
-  letter-spacing: 3px;
-  padding-top: 30px;
-  padding-left: 30px;
-  font-weight: bold;
-  color: var(--blue-text);
-  font-family: var(--font);
-  font-size: 25px;
-  display: block;
+  animation: 0.7s ease-out 0s 1 slideInFromRight;
 }
 
 .column {
