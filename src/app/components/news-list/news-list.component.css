@@ -51,7 +51,7 @@ mat-card {
   height: 200px;
   margin: 3em;
   background-color: var(--background-light);
-  color: var(--blue-text);
+  color: black;
 }
 
 img {
@@ -65,4 +65,30 @@ img {
   background: var(--background-very-light);
   margin: 2em 8em 8em;
   box-shadow: 1px 1px 1px var(--background-light);
+}
+
+.reg-text {
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  color: var(--blue-text);
+  font-family: var(--font);
+  font-size: 15px;
+  display: block;
+}
+
+.reg-title {
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  font-weight: bold;
+  color: var(--blue-text);
+  font-family: var(--font);
+  font-size: 25px;
+  display: block;
+}
+
+.image {
+  height: auto;
+  max-width: 200%;
 }

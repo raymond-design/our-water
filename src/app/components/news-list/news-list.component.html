@@ -2,7 +2,11 @@
 <div class="container">
   <cdk-virtual-scroll-viewport itemSize="200" class="viewport">
     <mat-card *cdkVirtualFor="let article of articles">
-      <mat-card-title class='reg-text'>{{article.title}}</mat-card-title>
+      <h1 class='reg-title'>{{article.title}}</h1>
+      <h2 class='reg-text'>{{article.description}}</h2>
+      <div class="image">
+        <img src={{article.urlToImage}}>
+      </div>
     </mat-card>
   </cdk-virtual-scroll-viewport>
 </div>
